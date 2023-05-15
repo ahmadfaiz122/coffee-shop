@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website</title>
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- icon -->
+    <link rel="icon" href="img/icon.png">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div class="header" id="home">
+        <nav id="navbar">
+            <a href="#home" class="logo">COFFEE <span></span></a>
+            <div class="links" id="nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#blog">Blog</a>
+                <a href="#service">Menu</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="fas fa-bars" id="menu-btn" onclick="openmenu()"></div>
+            <div class="fa-solid fa-xmark" id="close" onclick="closemenu()"></div>
+        </nav>
+        <div class="content">
+            <h3>Sekarang Anda Bisa Merasakan Energinya</h3>
+            <h1>awali harimu dengan <br>secangkir kopi</h1>
+            <button class="btn" onclick="button()" href="#">Beli Sekarang</button>
+        </div>
+    </div>
+    <!-- Header Section End -->
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="image">
+
+            </div>
+            <div class="about-content">
+                <h1>Apa Yang Membuat Kopi Kami Istimewah?</h1>
+                <h3>Biji Kopi Yang Kami Pilih.</h3>
+                <p>Biji kopi yang kami pilih berjenis robusta yang di panen di kota malang jawa timur. biji kopi kami memiliki keunikan yang tersendiri misalnya dampit yang menghasilkan kopi robusta memiliki aroma khas karamel, dan manis khas roti yang baru matang</p>
+                <button class="btn" style="color: black;" onclick="button()">Tentang Kami</button>
+
+            </div>
+        </div>
+    </section>
+    <!-- About Section End-->
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <h1 class="heading">Bolg <span>Kami</span></h1>
+        <p class="heading-description">Baca Blog Kami Dan Ketahui Lebih Banyak Tentang Pembaruan Terbaru Kami.</p>
+        <div class="container">
+            <div class="post">
+                <div class="blog-img">
+                    <img src="img/post4.jpg" alt="">
+                    <span>20 <br> apr </span>
+                </div>
+                <div class="blog-content">
+                    <h3>By admin |<span> Faiz</span></h3>
+                    <h1>Kopi yang enak dan menyegarkan</h1>
+                    <p>apa saja tentang kopi</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="blog-img">
+                    <img src="img/post2.jpg" alt="">
+                    <span>20 <br> apr </span>
+                </div>
+                <div class="blog-content">
+                    <h3>By admin |<span> Faiz</span></h3>
+                    <h1>Kopi yang enak dan menyegarkan</h1>
+                    <p>apa saja tentang kopi</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="blog-img">
+                    <img src="img/post3.jpg" alt="">
+                    <span>20 <br> apr </span>
+                </div>
+                <div class="blog-content">
+                    <h3>By admin |<span> Faiz</span></h3>
+                    <h1>Kopi yang enak dan menyegarkan</h1>
+                    <p>apa saja tentang kopi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End-->
+    <!-- Service Section -->
+    <section class="service" id="service">
+        <h1 class="heading">menu <span>kami </span></h1>
+        <p class="heading-description">Daftar menu </p>
+        <div class="container">
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/menu-1.png" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>Cappucino </h3>
+                    <p>Minuman kopi khas italia yang dibuat dari espresso dan susu </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/espresso.jpg" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>espresso </h3>
+                    <p>Minuman kopi khas itali. Espresso berasal dari Bahasa Italia yang berarti express atau "cepat"</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/latte2.jpg" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>latte </h3>
+                    <p>kopi khas itali. yang artinya kopi dicampur dengan susu dan memiliki busa yang tipis</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/mocca.jpg" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>mocca </h3>
+                    <p>kopi khas timur tengah. nama "moka" sendiri diambil dari bahasa dangang kuno di yaman</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/long-black.jpg" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>long black</h3>
+                    <p> jenis kopi yang umumnya tersedia di Australia. kopi yang memiliki aroma dan cita rasa yang khas</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/cold-brew.jpg" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>cold brew</h3>
+                    <p>satu satunya menu kami yang di seduh menggunakan air dingin. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service Section End -->
+
+
+
+    <!-- Team Section -->
+
+    <section class="team" id="team">
+        <h1 class="heading"> tim <span>kami</span></h1>
+        <p class="heading-description"> Tradisi Tahan Lama & Kecintaan Sejati Pada Kopi</p>
+        <div class="container">
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="img/pic-3.png" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Faiz</h3>
+                    <p>manager</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100054609997949"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/afaisz/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/faizabdillah123"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="img/pic2.png" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Faiz</h3>
+                    <p>chef</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100054609997949"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/afaisz/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/faizabdillah123"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="img/pic6.png" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Faiz</h3>
+                    <p>barista</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100054609997949"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/afaisz/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/faizabdillah123"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="img/pic9.png" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Faiz</h3>
+                    <p>waitt</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100054609997949"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/afaisz/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/faizabdillah123"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section End-->
+
+    <!-- Contact Section  -->
+    <section class="contact" id="contact">
+        <h1 class="heading">hubungi <span>kami</span></h1>
+        <p class="heading-description">Kami selalu ada untuk anda</p>
+        <div class="container">
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <h2>Email address <br> <span>kirim emial kapan saja</span></h2>
+                </div>
+                <div>
+                    <p>admin@domain.com</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2>alamat<br> <span>temukan kami</span></h2>
+                </div>
+                <div>
+                    <p>jawa timur , Indonesia</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <h2>telephon kami <br> <span>telephone kami kapan saja</span></h2>
+                </div>
+                <div>
+                    <p>+1234567890</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section End -->
+
+
+
+
+    <!-- Footer Section -->
+    <section class="footer">
+
+
+        <div class="container">
+            <div class="footer-box">
+                <h3>about us </h3>
+                <p>This website is made with all my heart</p>
+                <p>Copyrights &copy; 2023 All rights reserved By <a href="#">Faiz Dev</a></p>
+
+            </div>
+            <div class="footer-box">
+                <h3>Newsletter</h3>
+                <p>Stay update with our latests</p>
+                <form>
+                    <input type="email" name="email" placeholder="admin@gmail.com">
+                    <button type="submit"><i class="fa-solid fa-right-long"></i></button>
+                </form>
+            </div>
+            <div class="footer-box">
+                <h3>Follow Us</h3>
+                <p>Connect With Us On:</p>
+                <div>
+                    <a href="https://www.facebook.com/profile.php?id=100054609997949"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/afaisz/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.twitter.com/faizabdillah123/"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section End -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
